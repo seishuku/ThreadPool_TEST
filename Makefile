@@ -4,7 +4,7 @@ TARGET=threadpool
 OBJS=ThreadPool.o threads.o utils/list.o
 
 CC=gcc
-CFLAGS=-Wall -O3 -std=c17 -I/usr/X11/include
+CFLAGS=-Wall -O3 -std=gnu17 -I/usr/X11/include
 LDFLAGS=-L/usr/X11/lib -lm -lpthread -lX11
 
 all: $(TARGET)
